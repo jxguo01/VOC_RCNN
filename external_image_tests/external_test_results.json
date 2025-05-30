@@ -1,0 +1,67 @@
+[
+  {
+    "image_name": "street_scene",
+    "description": "Street scene with cars and people",
+    "expected_objects": [
+      "car",
+      "person",
+      "bicycle"
+    ],
+    "mask_rcnn_detections": 3,
+    "sparse_rcnn_detections": 1,
+    "mask_rcnn_objects": [
+      "car",
+      "person",
+      "bicycle"
+    ],
+    "sparse_rcnn_objects": [
+      "motorbike"
+    ]
+  },
+  {
+    "image_name": "living_room",
+    "description": "Living room with furniture",
+    "expected_objects": [
+      "sofa",
+      "chair",
+      "tvmonitor",
+      "bottle"
+    ],
+    "mask_rcnn_detections": 4,
+    "sparse_rcnn_detections": 4,
+    "mask_rcnn_objects": [
+      "sofa",
+      "tvmonitor",
+      "bottle",
+      "bicycle"
+    ],
+    "sparse_rcnn_objects": [
+      "sofa",
+      "chair",
+      "tvmonitor",
+      "bottle"
+    ]
+  },
+  {
+    "image_name": "outdoor_animals",
+    "description": "Outdoor scene with animals",
+    "expected_objects": [
+      "horse",
+      "cow",
+      "bird",
+      "dog"
+    ],
+    "mask_rcnn_detections": 4,
+    "sparse_rcnn_detections": 2,
+    "mask_rcnn_objects": [
+      "horse",
+      "cow",
+      "bird",
+      "dog"
+    ],
+    "sparse_rcnn_objects": [
+      "horse",
+      "dog"
+    ]
+  }
+]
